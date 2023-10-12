@@ -5,3 +5,16 @@ a {
     color: black;
     border: thick double #32a1ce;
 }
+
+body {
+    background: rgb(251, 209, 2);
+}
+img {
+    height: auto;
+    width: auto;
+    border-image-width: auto;
+    }
+
+    .btn-color {
+        margin: 20px 20px;
+    }
