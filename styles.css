@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(11, 11, 253);
+    color: rgb(249, 131, 4);
 }
 a {
     color: black;
@@ -7,7 +7,7 @@ a {
 }
 
 body {
-    background: rgb(251, 209, 2);
+    background: rgb(2, 234, 251);
 }
 img {
     height: auto;
@@ -18,3 +18,29 @@ img {
     .btn-color {
         margin: 20px 20px;
     }
+    p {
+        color: blue;
+        background: yellow;
+        width: 200px;
+        height: 15px;
+       }
+       .option {
+        display: none;
+      }
+      
+      .show {
+        display: block;
+      }
+      h5 {
+        background: gray;
+      }
+      #example .new { opacity: 0; }
+#example { padding:100px; width:350px; display:none; }
+#example .div_opacity {
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  opacity: 1;
+}
