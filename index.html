@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5v</title>
+    <title>5-В клас</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+          <div class="main-nav">
+            <a class="logo" href="/">5-В<span class="logo--dark"> клас</span></a>
+  
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link link nav__link--current current" href="./"
+                    >О нас</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link link" href="./portfolio.html">Наши проекты</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link link" href="">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <ul class="auth-nav">
+              <li class="auth-nav__item">
+                <a
+                  class="link auth-nav__contacts"
+                  href="mailto:info@5vclass.com"
+                  aria-label="Почта"
+                >
+                  <svg class="auth-nav__icon" width="16" height="12">
+                    <use href="./images/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  exempl@gmail.com
+                </a>
+              </li>
+              <li class="auth-nav__item">
+                <a
+                  href="tel:+380991956615"
+                  class="link auth-nav__contacts"
+                  aria-label="Телефон"
+                >
+                  <svg class="auth-nav__icon" width="10" height="16">
+                    <use href="./images/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+  
+              <!--МОБИЛЬНОЕ МЕНЮ-->
+            </ul>
+            <button type="button" class="mob-menu-open">
+              <svg class="menu-24" width="24" height="16">
+                <use href="./images/sprite.svg#icon-menu_24px"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+  
+        <div class="mob-menu is-hidden">
+          <div class="container-menu">
+            <button type="button" class="mob-menu-close">
+              <svg class="menu-close-24" width="19" height="19">
+                <use href="./images/sprite.svg#icon-close_24px"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a href="./" class="mob-menu-link current">Студия</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="./portfolio.html" class="mob-menu-link">Портфолио</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="./" class="mob-menu-link">Контакты</a>
+              </li>
+            </ul>
+  
+            <div class="mob-menu-bottom">
+              <ul class="mob-contacts-list list">
+                <li class="mob-contacts-item">
+                  <a href="tel:+380961111111" class="mcl link"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+                <li class="mob-contacts-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    aria-label="Почта"
+                    class="mob-contacts-link link"
+                    >info@5vclass.com</a
+                  >
+                </li>
+              </ul>
+  
+              <ul class="mob-soc-list list">
+                <li class="mob-soc-item">
+                  <a href="" class="mob-soc-link">Instagram</a>
+                </li>
+                <li class="mob-soc-item">
+                  <a href="" class="mob-soc-link"> Twitter</a>
+                </li>
+                <li class="mob-soc-item">
+                  <a href="" class="mob-soc-link">Facebook</a>
+                </li>
+                <li class="mob-soc-item">
+                  <a href="" class="mob-soc-link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
    
     <!-- Begin of Chaport Live Chat code -->
 <script type="text/javascript">
@@ -23,7 +147,9 @@
     <!-- End of Chaport Live Chat code -->
     <div id = 'page01'>
         <img src="https://lh5.googleusercontent.com/p/AF1QipMnReZ3fD1i67r3owfFGQ1BFMkSunixLe31ekxs=w283-h160-k-no" alt="lll">
+        <h6>сайт адаптирован под ПК</h6>
        <h1>Учасники</h1><br>
+       <b><i>
        <p>1. Мирослав Бойко</p>  <br>
 <p>2.Маргарита Бурлаченко</p><br>
        <p>3.Надя Гладкевич</p><br>
@@ -51,28 +177,148 @@
        <p>26.Olya Shilhuk</p><br>
        <p>28.  Makar Tereshchenko</p><br>
        <p>29.Зубик Кирило</p><br>
-       
+      </b></i>
       
-    <a href = '#' onclick = "document.getElementById('page01').style.display='none'; document.getElementById('page02').style.display='block';">преподователи</a>
-    </div>
-    <div id = 'page02' style='display: none'>
-        <h1>преподователи</h1>
-   1.Ірина Рехліцька<br>
-   2.Алла Давидчук<br>
-   3. Ілона Степанюк<br>
-   4.Катерина Глиб<br>
-    <a href = '#' onclick = "document.getElementById('page02').style.display='none'; document.getElementById('page01').style.display='block';">Назад</a>&nbsp;&nbsp;<a href = '#' onclick = "document.getElementById('page02').style.display='none'; document.getElementById('page03').style.display='block';">Описание</a>
-    </div>
-    <div id = 'page03' style='display: none'>
-    <h1></h1>
-  <h2> <i>Тут будет появляться иформацыя которую надо передать/ учиникам</i></h2>
-    <a href = '#' onclick = "document.getElementById('page03').style.display='none'; document.getElementById('page02').style.display='block';">Назад</a>
-    </div>
-
+    <h2>Ворзель ето...</h2>
+    <h5 style="color: darkgrey; font-size: 40px; display: inline-block;">Когда вы пользуетесь моим сайтом, вы меня поддерживаете</h5>
+<div class="videos">
     <div>
-        <h5 style="color: darkgrey; font-size: 40px; display: inline-block;">Когда вы пользуетесь моим сайтом, вы меня поддерживаете</h5>
+        
         <iframe width="560" height="315" src="https://www.youtube.com/embed/L3C_KtsNvLA?si=lRwQQZGpcDWhbaIi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+    </div>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Rleo8OxDMQc?si=A8kBfMnvpO0i2_FD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    </div>
+    </div>
+    <a href="viber:380991956615">позвонить в адмиистрацыю сайта 5-В</a>
+      <footer>
+        <section class="footer">
+          <div class="container footer__containers">
+            <div class="primary-second">
+              <div class="primary-container">
+                <a class="logo" href="/"
+                  >5-В<span class="logo--light">Клас</span></a
+                >
+                <ul class="footer-contacts">
+                  <li>
+                    <address class="address">
+                      г. Ворзель, ул. Курортная
+                    </address>
+                  </li>
+                  <li>
+                    <a class="link" href="mailto:info@example.com"
+                      >info@example.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="secondary-container">
+                <h3 class="footer-title">Есле вас чтото интересует,пишыте в чат администрацыи.</h3>
+  
+                <ul class="footer__social social">
+                  <li class="social__li">
+                    <a
+                      class="social__link social__link--dark"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instagram"
+                    >
+                      <svg
+                        class="social__item social__item--light"
+                        width="20"
+                        height="20"
+                      >
+                        <use href=""></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__li">
+                    <a
+                      class="social__link social__link--dark"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter"
+                    >
+                      <svg
+                        class="social__item social__item--light"
+                        width="20"
+                        height="20"
+                      >
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+  
+                  <li class="social__li">
+                    <a
+                      class="social__link social__link--dark"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook"
+                    >
+                      <svg width="20" height="20">
+                        <use
+                          class="social__item social__item--light"
+                          href="./images/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+  
+                  <li class="social__li">
+                    <a
+                      class="social__link social__link--dark"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin"
+                    >
+                      <svg
+                        class="social__item social__item--light"
+                        width="20"
+                        height="20"
+                      >
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="footer__third-container">
+              <h3 class="footer-title">Подпишитесь на рассылку</h3>
+              <div class="signup">
+                <form name="signup__form" autocomplete="on" novalidate>
+                  <label for="user-mail">
+                    <input
+                      class="signup__email"
+                      type="email"
+                      name="email"
+                      placeholder="E-mail"
+                      id="user-mail"
+                    />
+                  </label>
+  
+                  <button class="signup__btn" type="submit">
+                    Подписаться
+                    <svg class="signup__icon" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-icon-send"></use>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
 
 
     <script type="text/javascript">
@@ -85,7 +331,9 @@
           };
       };
       </script>
-    
-    
+     
+     <script>
+     </script>
+      
     </body>
 </html>
